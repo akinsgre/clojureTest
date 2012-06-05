@@ -2,3 +2,9 @@
 For learning about clojure.
 
 Used the archetype from maven to build the project
+
+Use 
+
+% mvn clojure:test # runs the testapp.clj
+% mvn clojure:run # runs the src/script/app.clj
+% mvn exec:java -Dexec.mainClass=app # runs the app main method
